@@ -92,7 +92,7 @@ body{
     transform: translateY(-0.2rem);
 }
 
-#equals:hover{
+.equals:hover{
     background: rgb(90, 252, 117);
     color: #000;
     transform: translateY(-0.2rem);
