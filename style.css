@@ -1,0 +1,151 @@
+body{
+    justify-items: center;
+    align-items: center;
+    background-color:seashell;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem;
+}
+
+.calculator{
+    border: 10px solid black;
+    width: 40rem;
+    display: flex;
+    flex-direction:column;
+    height: 100%;
+    background-color: wheat;
+}
+
+.main-screen{
+    border: 4px solid black;
+    height: 25%;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+.equals{
+    border-radius:30px;
+    font-size: 150%;
+}
+
+.screen{
+    padding: 0, 10px;
+    margin: 25px;
+    font-size: 50px;
+    text-align: right;
+    justify-content: right;
+    font-family:Arial, Helvetica, sans-serif;
+    overflow: scroll;
+    overflow-y: hidden;
+}
+
+.buttons{
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 4px 5px 5px 0px rgba(0,0,0,0.5);
+    color: #DFDFDF;
+    cursor: pointer;
+    transition: all .15s ease-in-out;
+}
+
+.numbers-buttons{
+    display: grid;
+    grid-template-columns: repeat(3,100px);
+    grid-gap: 2px;
+    margin-left: 2px;
+}
+
+.sec-buttons{
+    display: flex;  
+    flex-direction: column;
+    width: 100%;
+    margin-left: 20px;
+}
+
+.operations-buttons{
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+}
+
+.clear{
+    margin-bottom: 30px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btn{
+    border-radius:30px;
+    font-size: 150%;
+}
+
+.btn:hover{
+    background:mistyrose;
+    color: #000;
+    transform: translateY(-0.2rem);
+}
+
+#equals:hover{
+    background: rgb(90, 252, 117);
+    color: #000;
+    transform: translateY(-0.2rem);
+}
+
+.btn-2{
+    border-radius:30px;
+    font-size: 150%;
+}
+
+.btn-2:hover{
+    background: rgb(104, 245, 245);
+    color: #000;
+    transform: translateY(-0.2rem);
+}
+
+.btn-del{
+    width: 40%;  
+    font-size: 150%;  
+    border-radius: 30%;
+    background-color:#7b68ee;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.btn-del:hover{
+    background:#7b68ee;;
+    color: #000;
+    transform: translateY(-0.2rem);
+}
+
+.btn-clr{
+    width: 40%;
+    font-size: 150%; 
+    border-radius: 30%;
+    background-color: tomato;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.btn-clr:hover{
+    background: tomato;
+    color: #000;
+    transform: translateY(-0.2rem);
+}
+
+footer {
+    margin-top: 4rem;
+    text-align:center;
+    font-size: 26px;
+    font-family: 'Dancing Script', cursive;
+}
+
+h1{
+    text-align: center;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 3rem;
+}
